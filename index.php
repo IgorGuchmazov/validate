@@ -53,7 +53,7 @@
                         <div class="size-input">
                             <label class="tel" for="tel">Номер телефона<span> *</span></label>
                             <label style="position: relative;">
-                                <input class="first-tel required" type="tel" name="tel" id="tel" value="+7 910 832 26 28">
+                                <input class="first-tel required" type="tel" name="tel" id="tel">
                                 <img src="Icon.svg" class="img-gal-1">
                             </label>    
                         </div>
@@ -69,12 +69,12 @@
                     </label> 
                     <label class="name" for="name">Имя<span> *</span></label>
                     <label style="position:relative;">
-                        <input class="required" type="text" name="name" id="name" value="Михаил">
+                        <input class="required" type="text" name="name" id="name">
                         <img src="Icon.svg" class="img-gal" >
                     </label>
                     <label class="fathername" for="fathername">Отчество</label>
                     <label style="position:relative;">
-                        <input type="text" name="fathername" id="fathername" value="Михайлович">
+                        <input type="text" name="fathername" id="fathername">
                         <img src="Icon.svg" class="img-gal" >
                     </label>
                     <label class="date">Дата рождения</label>
@@ -103,7 +103,7 @@
             </section>
        </div>
    </main>
-   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js" type="text/javascript"></script>
    <script src="val.js"></script> 
 </body>
