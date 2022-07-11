@@ -1,0 +1,413 @@
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
+body {background-color: #f9f9fa;}
+main 
+{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+body h1 
+{
+    margin: 29px 0 29px 0;
+    line-height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2a3d48;
+}
+.content-main {display: flex;}
+.content-main aside 
+{
+    margin: 0 30px 0 0;
+    max-width:360px;
+    width: 100%;
+    height: 461px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+body aside:first-of-type 
+{
+    display: flex;
+    flex-direction: column;
+}
+aside .logo-profile 
+{
+    position: relative;
+    margin: 20px 20px 36px 0;
+    max-width: 320px;
+    width: 100%;
+    height: 60px;
+    background-color: #f9f9fa;
+    border-radius: 5px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+aside .nav-side 
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+aside .nav-side li
+{
+    max-width: 320px;
+    width: 100%;
+    height: 61px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C294D;
+}
+.nav-side li:last-child {color: #ff3347;}
+.nav-side li:first-child 
+{
+    color:#ff7a00;
+    font-weight: 500;
+}
+.logo-profile .logo-container 
+{
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.data-name ul 
+{
+    margin:0 0 0 61px;
+    list-style: none;
+    padding: 0;
+}
+.data-name ul li:first-child 
+{
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1c294d;
+}
+.data-name ul li:last-child 
+{
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(28, 41, 77, 0.5);
+}
+.border-top{position: relative;}
+.border-top::after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    background: rgba(42, 61, 72, 0.15);
+    border-radius: 2px;
+    height: 1px;
+    top: -21px;
+    left: 0;
+}
+.border-left::before
+{
+    position: absolute;
+    content: "";
+    width: 5px;
+    background: #FC6E1D;
+    border-radius: 5px;
+    height: 60px;
+    left:-20px;
+    top: -21px;
+}
+
+.content-main section 
+{
+    margin: 0;
+    max-width: 750px;
+    width: 100%;
+    height: 909px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.profile-set 
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+}
+.profile-set h2:first-of-type 
+{
+    margin: 45px 75px 19px 0;
+    height: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1c294d;
+}
+.nav-set 
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 45px 30px 0;
+    padding: 0;
+    justify-content: flex-start;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    height: 50px;
+}
+.nav-set li:first-child button 
+{
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 9px 15px 10px 15px;
+    width: 139px;
+    height: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+}
+.nav-set li:nth-child(2) 
+{
+    margin: 12px 30px 13px 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.nav-set li:last-child 
+{
+    margin:12px auto 13px 0px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.size 
+{
+    max-width:420px;
+    display: flex;
+    flex-direction: column;
+}
+.size input,
+.size select 
+{
+    padding: 15px 15px 15px 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C294D;
+}
+.profile-set .label-mail 
+{
+    width: 50px;
+    height: 20px;
+    margin-bottom:5px;    
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;    
+    color: #959ea4;
+}
+.size span
+{
+    color: #ff3347;
+}
+.profile-set input[name="mail"] 
+{
+    margin-bottom:15px;
+    padding: 14px;
+    width:100%;
+    height:50px;
+    border: 1px solid #dfe2e4;
+    border-radius: 5px;
+}
+.size .img-gal 
+{
+    position: absolute;
+    top:20px;
+    right: 18.33px;
+}
+.profile-set .phone 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom:15px;
+}
+.phone .tel,
+.phone .tel-add,
+.size .surname,
+.size .name,
+.size .fathername,
+.size .date,
+.size .wm 
+{
+    width:121px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #959ea4;
+}
+
+.size .surname,
+.size .name,
+.size .fathername,
+.size .date,
+.size .wm 
+{
+    margin-bottom: 5px;
+}
+.phone input[name="tel"],
+.phone input[name="tel-add"]  
+{
+    margin-top: 5px;
+    max-width: 205px;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe2e4;
+    border-radius: 5px;
+}
+.phone .tel-add 
+{
+    width: 162px;
+}
+.size-input 
+{
+    max-width: 205px;
+    width: 100%;
+}
+.size .img-gal-1 
+{
+    position: absolute;
+    top:3px;
+    right: 18.33px;
+}
+.size input[name="surname"],
+.size input[name="name"],
+.size input[name="fathername"] 
+{
+    width:100%;
+    height:50px;
+    margin-bottom: 15px;   
+    background-color: #ffffff;
+    border: 1px solid #dfe2e4;
+    border-radius: 5px;
+}
+.size .date-of-birth 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.date-of-birth .date-select 
+{
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe2e4;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.date-select.number,
+.date-select.year 
+{
+    max-width: 120px;
+    width: 100%;
+}
+.date-select.month 
+{
+    max-width: 160px;
+    width: 100%;
+}
+.size .submit-form 
+{
+    max-width: 270px;
+    width: 100%;
+    height: 50px;
+}
+.size .submit-form 
+{
+    background-color: #ff7a00;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+.size button
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.size .gender
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.size .wm-button
+{
+    display: flex;
+    max-width: 270px;
+    width: 100%;
+    justify-content: space-between;
+}
+.size .label-rd
+{
+    line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 5px;
+	background-color: white;
+	width: 130px;
+	height: 50px;
+	border:1px solid #DFE2E4;
+}
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked)
+{
+    position: absolute;
+    left: -9999px;
+}
+input[type="radio"]:not(:checked) + .label-rd{background-color: none;}
+input[type="radio"]:checked + .label-rd
+{
+    border: 1px solid #ff7b00;
+    color: #ff7a00;
+}
+.error {border: 1px solid red;}
