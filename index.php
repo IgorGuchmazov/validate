@@ -46,35 +46,35 @@
                 <form class="formAccount size" action="send.php" method="post">
                     <label class="label-mail" for="mail">E-mail<span> *</span></label>
                     <label style="position: relative;">
-                        <input class="email" type="email" name="mail" id="mail" value="mingalyovuxcheck@gmail.com">
+                        <input class="required email border-grey" type="email" name="mail" id="mail" value="mingalyovuxcheck@gmail.com">
                         <img src="Icon.svg" class="img-gal">
                     </label>
                     <div class="phone">
                         <div class="size-input">
                             <label class="tel" for="tel">Номер телефона<span> *</span></label>
                             <label style="position: relative;">
-                                <input class="first-tel required" type="tel" name="tel" id="tel">
+                                <input class="first-tel required border-grey" type="tel" name="tel" id="tel">
                                 <img src="Icon.svg" class="img-gal-1">
                             </label>    
                         </div>
                         <div class="size-input">
                             <label class="tel-add" for="tel-add">Дополнительный номер</label>
-                            <input class="second-tel" type="tel" name="tel-add" id="tel-add">
+                            <input class="second-tel border-grey" type="tel" name="tel-add" id="tel-add">
                         </div>
                     </div>
                     <label class="surname" for="surname">Фамилия<span> *</span></label>
                     <label style="position:relative;">
-                        <input class="required" type="text" name="surname" id="surname">
+                        <input class="required border-grey" type="text" name="surname" id="surname">
                         <img src="Icon.svg" class="img-gal" >
                     </label> 
                     <label class="name" for="name">Имя<span> *</span></label>
                     <label style="position:relative;">
-                        <input class="required" type="text" name="name" id="name">
+                        <input class="required border-grey" type="text" name="name" id="name">
                         <img src="Icon.svg" class="img-gal" >
                     </label>
                     <label class="fathername" for="fathername">Отчество</label>
                     <label style="position:relative;">
-                        <input type="text" name="fathername" id="fathername">
+                        <input class="border-grey" type="text" name="fathername" id="fathername">
                         <img src="Icon.svg" class="img-gal" >
                     </label>
                     <label class="date">Дата рождения</label>
